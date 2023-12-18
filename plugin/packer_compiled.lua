@@ -74,13 +74,18 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["AdvancedNewFile.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Toby\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\AdvancedNewFile.nvim",
+    url = "https://github.com/Mohammed-Taher/AdvancedNewFile.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "C:\\Users\\Toby\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["aidoc.nvim"] = {
-    config = { "\27LJ\2\np\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nemail\27tjens23@student.sdu.dk\vkeymap\14<leader>d\nwidth\3A\nsetup\naidoc\frequire\0" },
+    config = { "\27LJ\2\np\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nwidth\3A\vkeymap\14<leader>d\nemail\27tjens23@student.sdu.dk\nsetup\naidoc\frequire\0" },
     loaded = true,
     path = "C:\\Users\\Toby\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\aidoc.nvim",
     url = "https://github.com/moozd/aidoc.nvim"
@@ -186,7 +191,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: aidoc.nvim
 time([[Config for aidoc.nvim]], true)
-try_loadstring("\27LJ\2\np\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nemail\27tjens23@student.sdu.dk\vkeymap\14<leader>d\nwidth\3A\nsetup\naidoc\frequire\0", "config", "aidoc.nvim")
+try_loadstring("\27LJ\2\np\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nwidth\3A\vkeymap\14<leader>d\nemail\27tjens23@student.sdu.dk\nsetup\naidoc\frequire\0", "config", "aidoc.nvim")
 time([[Config for aidoc.nvim]], false)
 -- Config for: stylua-nvim
 time([[Config for stylua-nvim]], true)

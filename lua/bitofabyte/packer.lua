@@ -17,8 +17,7 @@ return require("packer").startup(function(use)
 	use("nvim-treesitter/playground")
 	use("ellisonleao/gruvbox.nvim")
 	use({
-		"kyazdani42/nvim-tree.lua",
-		requires = { "nvim-tree/nvim-web-devicons" },
+		"kyazdani42/nvim-tree.lua"
 	})
 	use({
 		"neovim/nvim-lspconfig",
@@ -67,4 +66,6 @@ return require("packer").startup(function(use)
 		end,
 	})
 	use("lervag/vimtex")
+    use 'Mohammed-Taher/AdvancedNewFile.nvim'
+    use 'nvim-tree/nvim-web-devicons'
 end)

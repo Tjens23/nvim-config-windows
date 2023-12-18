@@ -16,3 +16,4 @@ vim.keymap.set("i", "<C-/>", [[:call copilot#Accept()<CR>]], { silent = true, no
 vim.keymap.set("n", "<leader>li", "<plug>(vimtex-info)", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>ll", "<plug>(vimtex-compile)", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>lv", "<cmd>!xdg-open %:p:r.pdf<cr>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>cf", "<cmd>AdvancedNewFile<CR>", { noremap = true })
